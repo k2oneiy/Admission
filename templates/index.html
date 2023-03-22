@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Predication</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="content">
+        <div>
+            <img src="../static/img/user.svg" alt="" width="450" height="350">
+        </div>
+        <div class="data" style="padding: 1rem 3rem;">
+            <h3>Please Enter Your Details</h3><br>
+            <form action="/predict" method="post">
+                <input type="text" name="name" placeholder="Name" /><br>
+                <input type="text" name="gre" placeholder="GRE Score" /><br>
+                <input type="text" name="tofel" placeholder="TOFEL Score" /><br>
+        
+        
+                <p>Select University Rating</p>
+                <input type="radio" name="Uni" value="1">1
+                <input type="radio" name="Uni" value="2">2
+                <input type="radio" name="Uni" value="3">3
+                <input type="radio" name="Uni" value="4">4
+                <input type="radio" name="Uni" value="5">5 <br>
+        
+                
+                <input type="text" name="sop" placeholder="SOP"><br>
+                <input type="text" name="lor" placeholder="LOR"> <br>
+                <input type="text" name="cgpa" placeholder="CGPA"> <br>
+        
+                <!-- <p>Research</p> -->
+                <p>Research</p>
+                <input type="radio" class="radio" name="Reserch" value="1" placeholder="Research">Reserch
+                <input type="radio" class="radio" name="Reserch" value="2" placeholder="Research"> No Reserch<br><br>
+        
+                <input type="submit" value="Predict" class="btn">
+        
+            </form>
+        </div>
+    </div>
+</body>
+</html>

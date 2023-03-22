@@ -1,0 +1,59 @@
+
+
+
+*{
+    font-family: "Mukta Malar", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2,h3,h5,h1{
+    font-weight: bold;
+    color: #5d67f8;
+}
+h4{
+    font-weight: bold;
+    color: #5d67f8;
+}
+
+input{
+    padding: .3rem 1rem;
+    outline: none;
+    border: none;
+    margin: .5rem .3rem;
+    border: 2px solid #5d67f8;
+}
+
+p{
+    margin: .5rem .3rem;
+}
+
+.content{
+    display: flex;
+    padding: 10rem 15rem;
+    align-items: center;
+}
+
+.data{
+    margin: 1rem 10rem;
+}
+
+
+.radio{
+    border: 2px solid #5d67f8;
+    color: #5d67f8;
+}
+
+input:hover{
+    outline: none;
+    border: 2px solid #5d67f8;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #5d67f8;
+    font-weight: 550;
+    color: white;
+}
